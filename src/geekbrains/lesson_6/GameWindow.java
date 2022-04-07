@@ -25,7 +25,7 @@ public class GameWindow extends JFrame { //объявляем переменну
         drop = ImageIO.read(GameWindow.class.getResourceAsStream("drop.png"));
 	    game_window = new GameWindow ();
         game_window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        game_window.setLocation(200, 100);
+        game_window.setLocation(500, 400);
         game_window.setSize (906, 478);
         game_window.setResizable(false);
         last_frame_time = System.nanoTime();
